@@ -19,3 +19,4 @@ const PersistedMutableProperty = () => {
 };
 
 export default PersistedMutableProperty;
+

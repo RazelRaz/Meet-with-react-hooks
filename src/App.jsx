@@ -1,3 +1,4 @@
+import CachingExpensiveComputation from "./components/CachingExpensiveComputation"
 import PersistedMutableProperty from "./components/PersistedMutableProperty"
 import UseRefWorkingWithCSS from "./components/UseRefWorkingWithCSS"
 import UseRefWorkingWithInput from "./components/UseRefWorkingWithInput"
@@ -14,6 +15,7 @@ function App() {
       <UseRefWorkingWithInput></UseRefWorkingWithInput>
       <UseRefWorkingWithCSS></UseRefWorkingWithCSS>
       <PersistedMutableProperty></PersistedMutableProperty>
+      <CachingExpensiveComputation></CachingExpensiveComputation>
     </>
   )
 }
