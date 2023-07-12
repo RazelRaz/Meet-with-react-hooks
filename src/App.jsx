@@ -1,3 +1,4 @@
+import UseRefWorkingWithInput from "./components/UseRefWorkingWithInput"
 import UserefAttributeValue from "./components/UserefAttributeValue"
 import UserefInnerText from "./components/UserefInnerText"
 
@@ -8,6 +9,7 @@ function App() {
       <h1>Meet With hook</h1>
       <UserefInnerText></UserefInnerText>
       <UserefAttributeValue></UserefAttributeValue>
+      <UseRefWorkingWithInput></UseRefWorkingWithInput>
     </>
   )
 }
