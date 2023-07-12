@@ -1,3 +1,4 @@
+import UseRefWorkingWithCSS from "./components/UseRefWorkingWithCSS"
 import UseRefWorkingWithInput from "./components/UseRefWorkingWithInput"
 import UserefAttributeValue from "./components/UserefAttributeValue"
 import UserefInnerText from "./components/UserefInnerText"
@@ -10,6 +11,7 @@ function App() {
       <UserefInnerText></UserefInnerText>
       <UserefAttributeValue></UserefAttributeValue>
       <UseRefWorkingWithInput></UseRefWorkingWithInput>
+      <UseRefWorkingWithCSS></UseRefWorkingWithCSS>
     </>
   )
 }
