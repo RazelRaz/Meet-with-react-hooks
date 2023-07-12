@@ -1,3 +1,4 @@
+import PersistedMutableProperty from "./components/PersistedMutableProperty"
 import UseRefWorkingWithCSS from "./components/UseRefWorkingWithCSS"
 import UseRefWorkingWithInput from "./components/UseRefWorkingWithInput"
 import UserefAttributeValue from "./components/UserefAttributeValue"
@@ -12,6 +13,7 @@ function App() {
       <UserefAttributeValue></UserefAttributeValue>
       <UseRefWorkingWithInput></UseRefWorkingWithInput>
       <UseRefWorkingWithCSS></UseRefWorkingWithCSS>
+      <PersistedMutableProperty></PersistedMutableProperty>
     </>
   )
 }
