@@ -5,7 +5,10 @@
 // import UserefAttributeValue from "./components/UserefAttributeValue"
 // import UserefInnerText from "./components/UserefInnerText"
 
+import UseRefWorkingWithCSS from "./components/UseRefWorkingWithCSS"
 import UseStateUnderstadingInside from "./components/UseStateUnderstadingInside"
+import UseStateImmutableObject from "./components/useStateImmutableObject"
+
 
 function App() {
 
@@ -19,6 +22,8 @@ function App() {
       <PersistedMutableProperty></PersistedMutableProperty>
       <CachingExpensiveComputation></CachingExpensiveComputation> */}
       <UseStateUnderstadingInside></UseStateUnderstadingInside>
+      <UseStateImmutableObject></UseStateImmutableObject>
+      
     </>
   )
 }
