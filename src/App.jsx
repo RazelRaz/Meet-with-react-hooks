@@ -6,6 +6,7 @@
 // import UserefInnerText from "./components/UserefInnerText"
 // import UseRefWorkingWithCSS from "./components/UseRefWorkingWithCSS"
 import Form from "./components/Form"
+import IncrementDecrement from "./components/IncrementDecrement"
 import UseStateImmutableArray from "./components/UseStateImmutableArray"
 import UseStateUnderstadingInside from "./components/UseStateUnderstadingInside"
 import UseStateImmutableObject from "./components/useStateImmutableObject"
@@ -26,6 +27,7 @@ function App() {
       <UseStateImmutableObject></UseStateImmutableObject>
       <UseStateImmutableArray></UseStateImmutableArray>
       <Form></Form>
+      <IncrementDecrement></IncrementDecrement>
     </>
   )
 }
