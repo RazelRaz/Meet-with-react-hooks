@@ -23,6 +23,7 @@ const Form = () => {
     const FormSubmit = (e) => {
         e.preventDefault();
         console.log(FormObj);
+        alert(JSON.stringify(FormObj))
     }
 
     return (
