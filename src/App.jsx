@@ -5,6 +5,7 @@
 // import UserefAttributeValue from "./components/UserefAttributeValue"
 // import UserefInnerText from "./components/UserefInnerText"
 // import UseRefWorkingWithCSS from "./components/UseRefWorkingWithCSS"
+import Form from "./components/Form"
 import UseStateImmutableArray from "./components/UseStateImmutableArray"
 import UseStateUnderstadingInside from "./components/UseStateUnderstadingInside"
 import UseStateImmutableObject from "./components/useStateImmutableObject"
@@ -24,6 +25,7 @@ function App() {
       <UseStateUnderstadingInside></UseStateUnderstadingInside>
       <UseStateImmutableObject></UseStateImmutableObject>
       <UseStateImmutableArray></UseStateImmutableArray>
+      <Form></Form>
     </>
   )
 }
