@@ -5,10 +5,12 @@
 // import UserefAttributeValue from "./components/UserefAttributeValue"
 // import UserefInnerText from "./components/UserefInnerText"
 // import UseRefWorkingWithCSS from "./components/UseRefWorkingWithCSS"
+import ArgumentsAndUses from "./components/ArgumentsAndUses"
 import Form from "./components/Form"
 import IncrementDecrement from "./components/IncrementDecrement"
 import UseStateImmutableArray from "./components/UseStateImmutableArray"
 import UseStateUnderstadingInside from "./components/UseStateUnderstadingInside"
+import UsigAsyncAwait from "./components/UsigAsyncAwait"
 import UseStateImmutableObject from "./components/useStateImmutableObject"
 
 
@@ -28,6 +30,8 @@ function App() {
       <UseStateImmutableArray></UseStateImmutableArray>
       <Form></Form>
       <IncrementDecrement></IncrementDecrement>
+      <ArgumentsAndUses></ArgumentsAndUses>
+      <UsigAsyncAwait></UsigAsyncAwait>
     </>
   )
 }
