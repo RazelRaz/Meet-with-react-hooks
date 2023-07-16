@@ -11,6 +11,7 @@ import IncrementDecrement from "./components/IncrementDecrement"
 import UseStateImmutableArray from "./components/UseStateImmutableArray"
 import UseStateUnderstadingInside from "./components/UseStateUnderstadingInside"
 import UsigAsyncAwait from "./components/UsigAsyncAwait"
+import WindowWidth from "./components/WindowWidth"
 import UseStateImmutableObject from "./components/useStateImmutableObject"
 
 
@@ -32,6 +33,7 @@ function App() {
       <IncrementDecrement></IncrementDecrement>
       <ArgumentsAndUses></ArgumentsAndUses>
       <UsigAsyncAwait></UsigAsyncAwait>
+      <WindowWidth></WindowWidth>
     </>
   )
 }
